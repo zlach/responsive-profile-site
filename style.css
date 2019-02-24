@@ -4,7 +4,7 @@ body{
 	padding: 0px;
 }
 
-.fas{
+#logo .fas{
 	color: #999999;
 }
 
@@ -22,6 +22,7 @@ body{
 	font-size: 1.2em;
 	padding: 2vw;
 	display: inline;
+	color: #333333;
 }
 
 .fat{
@@ -30,6 +31,7 @@ body{
 
 .navboy{
 	padding: 2vw;
+	color: #333333;
 }
 
 @media (max-width: 630px){
@@ -50,7 +52,7 @@ body{
 
 	#bottombutton:hover{
 		background-color: #07639c;
-		transition-duration: .5s;
+		transition-duration: .3s;
 	}
 	#bottomcontent{
 		position: fixed;
@@ -73,6 +75,79 @@ body{
 		height: 70vw;
 		background-size: cover;
 		background-position: center 10%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		position: relative;
+		top: 25px;
+		z-index: -1;
+	}
+	#pictext{
+		font-size: .7em;
+		letter-spacing: .2em;
+		color: white;
+		text-align: center;
+		text-shadow: 0px 0px 2px black;
+	}
+		#content-container{
+		width: 100vw;
+		display: block;
+		position: relative;
+		top: 25px;
+		text-align: center;
+		z-index: -1;
+	}
+
+	#text-container{
+		position: relative;
+		margin: auto;
+		width: 350px;
+	}
+
+	.bigbutt{
+		background-color: #305B90;
+		color: white;
+		border-radius: 5px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1.1em;
+		display: block;
+		width: 100%;
+		line-height: 50px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.bigbutt:hover{
+		background-color: #456B9B;
+		transition-duration: .3s;
+	}
+
+	#text{
+		text-align: left;
+		color: #333333;
+	}
+
+	.work-edu{
+		font-size: .8em;
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+
+		.work-edu span{
+			color: #999999;
+			letter-spacing: .2em;
+			line-height: 20px;
+			font-size: .8em;
+		}
+
+	.fab{
+		color: #999999;
+		font-size: 3em;
+		margin-bottom: 80px;
+	}
+	#title-right{
+		display: none;
 	}
 }
 
@@ -103,9 +178,9 @@ body{
 		display: inline-block;
 	}
 
-	#bottombutton:hover{
+	#bottombutton2:hover{
 		background-color: #07639c;
-		transition-duration: .5s;
+		transition-duration: .3s;
 	}
 
 	#bottomtext{
@@ -121,30 +196,27 @@ body{
 		height: 100vh;
 		background-size: cover;
 		background-position: center 40%;
+		position: fixed;
+		top: 25px;
+		z-index: -1;
 	}
-}
-
-#content-container{
+	#pictext{
+		display: none;
+	}
 }
 
 #profpic{
 	background-image: url('zachary-goldberg-graduation.jpg');
-	position: fixed;
-	top: 25px;
-	z-index: -1;
-}
-
-#text{
 }
 
 #bottombar{
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	width: 100%;
-	height: 60px;
-	background-color: white;
-	opacity: .85;
-	box-shadow: 0px -2px 2px -2px #999999;
-}
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		width: 100%;
+		height: 60px;
+		background-color: white;
+		opacity: .85;
+		box-shadow: 0px -2px 2px -2px #999999;
+	}
