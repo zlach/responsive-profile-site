@@ -16,6 +16,7 @@ body{
 	width: 100%;
 	background-color: white;
 	position: fixed;
+	z-index: 1;
 }
 
 #logo{
@@ -89,13 +90,13 @@ body{
 		text-align: center;
 		text-shadow: 0px 0px 2px black;
 	}
-		#content-container{
+	#content-container{
 		width: 100vw;
 		display: block;
 		position: relative;
 		top: 25px;
 		text-align: center;
-		z-index: -1;
+		margin-bottom: 80px;
 	}
 
 	#text-container{
@@ -142,10 +143,13 @@ body{
 		}
 
 	.fab{
-		color: #999999;
-		font-size: 3em;
-		margin-bottom: 80px;
+		width: 40px;
 	}
+
+	.sp{
+		margin-right: 25px;
+	}
+
 	#title-right{
 		display: none;
 	}
@@ -198,10 +202,69 @@ body{
 		background-position: center 40%;
 		position: fixed;
 		top: 25px;
-		z-index: -1;
 	}
 	#pictext{
 		display: none;
+	}
+	#content-container{
+		float: right;
+		width: 33vw;
+	}
+
+	#text-container{
+		position: relative;
+		margin: 10vw 5vw;
+	}
+
+	#title-right{
+		color: #333333;
+		font-size: .7em;
+	}
+
+	.bigbutt{
+		background-color: #305B90;
+		color: white;
+		border-radius: 5px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1.1em;
+		display: block;
+		width: 100%;
+		line-height: 50px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.bigbutt:hover{
+		background-color: #456B9B;
+		transition-duration: .3s;
+	}
+
+	#text{
+		text-align: left;
+		color: #333333;
+	}
+
+	.work-edu{
+		font-size: .8em;
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+
+		.work-edu span{
+			color: #999999;
+			letter-spacing: .2em;
+			line-height: 20px;
+			font-size: .8em;
+		}
+
+	.fab{
+		width: 40px;
+		margin-top: 10px;
+	}
+
+	.sp{
+		margin-right: 25px;
 	}
 }
 
