@@ -102,7 +102,7 @@ body{
 	#text-container{
 		position: relative;
 		margin: auto;
-		width: 350px;
+		max-width: 350px;
 	}
 
 	.bigbutt{
@@ -283,3 +283,11 @@ body{
 		opacity: .85;
 		box-shadow: 0px -2px 2px -2px #999999;
 	}
+
+@media (max-width: 350px){
+	#text-container{
+		position: relative;
+		margin: auto;
+		max-width: 90%;
+	}
+}
